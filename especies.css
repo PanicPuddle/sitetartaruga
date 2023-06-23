@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 60px;
+    background-color: black;
+    color: #fff;
+    size: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+    margin: none;
+}
+
+header div ul {
+    margin-left: 345px;
+    list-style: none;
+}
+
+header div ul li {
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
+}
+
+header div ul li a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo {
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.logo:hover {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+.intro {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    background-color: white;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+hr {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 30px;
+}
+
+.caixa2 {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 70px;
+    text-align: justify;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+
+.caixa1 {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 70px;
+    text-align: justify;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+
+.imgdireita {
+    margin: 20px;
+    margin-right: 0px;
+}
+
+.imgesquerda {
+    margin: 20px;
+    margin-left: 0px;
+}
+
+footer {
+    margin-top: 50px;
+    height: 60px;
+    background-color: black;
+    color: white;
+
+}

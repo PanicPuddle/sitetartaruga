@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 60px;
+    background-color: transparent;
+    color: #fff;
+    size: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+    margin: none;
+}
+
+header div ul {
+    margin-left: 345px;
+    list-style: none;
+}
+
+header div ul li {
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
+}
+
+header div ul li a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo {
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.logo:hover {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+body{
+    background-image: url(https://images.pexels.com/photos/5326965/pexels-photo-5326965.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+}
+.intro {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.divisao1 {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.divisao2 {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.tudo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+
+.img1 {
+    margin: 20px;
+    margin-right: 0px;
+}
+
+.img2 {
+    margin: 20px;
+    margin-left: 0px;
+}
+
+footer {
+    height: 60px;
+    background-color: black;
+    color: white;
+
+}
